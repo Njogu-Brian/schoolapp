@@ -1,0 +1,233 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: url('/school-management-system/public/images/login-bg.jpg') no-repeat center center/cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    color: white;
+}
+
+/* Welcome Text */
+.welcome-text {
+    text-align: center;
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+    color: white;
+}
+
+/* Login Container */
+.login-container {
+    display: flex;
+    width: 90%;
+    max-width: 1000px;
+    background: rgba(0, 0, 0, 0.8);
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+}
+
+/* Left Side: Login Form */
+.login-left {
+    flex: 1;
+    padding: 30px;
+    background: rgba(255, 255, 255, 0.1);
+    text-align: center;
+}
+
+.login-header h2 {
+    font-size: 24px;
+    color: #007bff;
+    margin-bottom: 20px;
+}
+
+.login-logo {
+    width: 100px;
+    margin-bottom: 15px;
+}
+
+/* Form Inputs */
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    box-sizing: border-box;
+}
+
+/* Sign In Button */
+.btn-primary {
+    background: #28a745;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    font-size: 16px;
+}
+
+.btn-primary:hover {
+    background: #218838;
+}
+
+/* Role Buttons */
+.quick-login {
+    margin-top: 15px;
+}
+
+.role-button {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    margin: 5px;
+    color: white;
+    cursor: pointer;
+}
+
+.super-admin {
+    background-color: #dc3545;
+}
+
+.super-admin:hover {
+    background-color: #c82333;
+}
+
+.admin {
+    background-color: #007bff;
+}
+
+.admin:hover {
+    background-color: #0056b3;
+}
+
+.teacher {
+    background-color: #ffc107;
+}
+
+.teacher:hover {
+    background-color: #e0a800;
+}
+
+.accountant {
+    background-color: #17a2b8;
+}
+
+.accountant:hover {
+    background-color: #117a8b;
+}
+
+.receptionist {
+    background-color: #6f42c1;
+}
+
+.receptionist:hover {
+    background-color: #563d7c;
+}
+
+.librarian {
+    background-color: #20c997;
+}
+
+.librarian:hover {
+    background-color: #198754;
+}
+
+/* Right Side: Announcements */
+.login-right {
+    flex: 1;
+    padding: 30px;
+    background: rgba(255, 255, 255, 0.9);
+    color: #333;
+    text-align: left;
+}
+
+.login-right h2 {
+    color: #007bff;
+    margin-bottom: 10px;
+}
+
+.login-right ul {
+    list-style: none;
+    padding: 0;
+}
+
+.login-right ul li {
+    margin-bottom: 10px;
+}
+
+.login-right ul li strong {
+    font-size: 14px;
+    display: block;
+}
+
+.login-right ul li p {
+    font-size: 12px;
+    color: #555;
+}
+
+/* Login Links */
+.login-links {
+    text-align: center;
+    margin-top: 15px;
+}
+
+.login-links a {
+    color: #00aced; /* Light blue color */
+    text-decoration: none;
+    font-size: 14px;
+    margin: 0 10px;
+    transition: color 0.3s;
+}
+
+.login-links a:hover {
+    color: #007bff; /* Slightly darker blue on hover */
+}
+.error-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f8f9fa;
+    text-align: center;
+}
+
+.error-container {
+    max-width: 500px;
+    padding: 20px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.error-container h1 {
+    font-size: 2.5rem;
+    margin-bottom: 15px;
+    color: #dc3545;
+}
+
+.error-container p {
+    margin-bottom: 20px;
+    font-size: 1rem;
+    color: #6c757d;
+}
+
+.error-container .btn-primary {
+    text-decoration: none;
+    background: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+.error-container .btn-primary:hover {
+    background: #0056b3;
+}
